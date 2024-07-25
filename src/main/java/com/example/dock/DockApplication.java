@@ -11,7 +11,7 @@ public class DockApplication {
 
 	@GetMapping("/")
 	public String welcome(){
-		return "Changes done after docker";
+		return "SOMETHING";
 	}
 
 	public static void main(String[] args) {

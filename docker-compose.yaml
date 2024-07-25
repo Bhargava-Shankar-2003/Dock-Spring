@@ -1,0 +1,10 @@
+services:
+    app:
+      build: .
+      container_name: spring-boot-dock
+      image: dock-app
+      command: mvn spring-boot:run
+      ports:
+        - 8080:8080
+      volumes:
+        - ./src:/opt/app/src
